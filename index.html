@@ -8,7 +8,18 @@
     <script defer src="javascript.js"></script>
 </head>
 <body>
-    <div class="container">
+    <div id="title">
+        <h1>Etch-A-Sketch: Lets Draw!</h1>
+    </div>
+
+    <div id="menu">
+        <div class="menuitem">Canvas Size:
+            <input class ="slider" type="range" min="1" max="100" value="50" id="canvasRange">
+            <div class="txtrange"></div>
+        </div>
+    </div>
+
+    <div id="canvas">
         <div class="gridbox"></div>
     </div>
 </body>
