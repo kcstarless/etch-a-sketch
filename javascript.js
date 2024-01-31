@@ -37,6 +37,7 @@ gridbox.addEventListener("mouseover", (event) => {
     }
 })
 
+// Slider to show current value.
 let slider = document.querySelector(".slider");
 let txtRange = document.querySelector(".txtrange");
 
@@ -46,6 +47,7 @@ slider.oninput = function() {
     txtRange.textContent = this.value;
 }
 
+// Remove existing gridbox and replace with new gridsize.
 slider.onchange = function () {
     removeCanvas();
     canvas(this.value);

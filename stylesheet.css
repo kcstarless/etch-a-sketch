@@ -56,18 +56,10 @@ body {
     width: 700px;
     height: 700px;
     border: solid 1px black;
-    margin: 0;
-    padding: 0;
 }
 .gridbox > .box {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     text-align: center;
-    margin: 0;
-    padding: 0;
-
-    /* width: calc(100% / 16);
-    height: calc(100% / 16); */
-    /* border: solid 0px pink; */
 }
