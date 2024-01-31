@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+.gridbox {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+    width: 700px;
+    height: 700px;
+    border: solid 1px black;
+}
+.gridbox > .box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+
+    width: calc(100% / 100);
+    height: calc(100% / 100);
+    border: solid 0px pink;
+}
+
+/* .box:hover {
+    background-color: red;
+} */
