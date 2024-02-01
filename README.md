@@ -18,3 +18,7 @@ Instruction to draw:
        check box. 
 
     
+Known Bugs & Issues
+    Gap in the bottom and right side or border on certain gridsizes. 
+        Possible cause is width / girdsize not rounding up to whole number.
+        Further investigation is needed and revisited. 
