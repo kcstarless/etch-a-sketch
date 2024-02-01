@@ -12,3 +12,9 @@ Instruction to draw:
     1. To draw, click mouse button inside the canvas.
     2. Move your mouse to draw on the canvas.
     3. To stop drawing, click mouse button again inside the canvas. 
+    4. To change brush size (grid size) slide the slider left to right to desired number.
+    5. The canvas will reset automatically. 
+    6. To change color of the brush to random color click on randomise
+       check box. 
+
+    

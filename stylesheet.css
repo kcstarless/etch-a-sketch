@@ -11,12 +11,14 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 20px;
+    margin: 0px 5px 20px 5px;
     /* border: solid 1px black; */
 }
 #menu > .menuitem {
     display: flex;
     align-items: center;
+    /* border: solid 1px black; */
+    margin: 0px 10px 0px 10px;
   
 }
 .menuitem > .slider {
@@ -40,7 +42,6 @@ body {
   }
 .menuitem > .txtrange {
     width: 3cap;
-    /* border: solid black 1px; */
 }
 
 #canvas {
@@ -50,16 +51,11 @@ body {
 #canvas > .gridbox {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-evenly;
-    
+        
     width: 700px;
     height: 700px;
-    border: solid 1px black;
+    border: solid 2px black;
 }
 .gridbox > .box {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    text-align: center;
+    display: flex;    
 }
